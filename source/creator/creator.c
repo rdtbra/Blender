@@ -273,6 +273,7 @@ void gmp_blender_init_allocator()
  * - run #WM_main() event loop,
  *   or exit immediately when running in background-mode.
  */
+/* RDT: 20230702 - Entry point do codigo fonte. https://wiki.blender.org/wiki/Source/File_Structure */
 int main(int argc,
 #ifdef USE_WIN32_UNICODE_ARGS
          const char **UNUSED(argv_c)
